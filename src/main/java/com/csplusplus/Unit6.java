@@ -67,7 +67,7 @@ public class Unit6 {
         System.out.println("Max element: " + maxElement(testArray));
         System.out.println("Is testArray sorted: " + isSorted(testArray));
         System.out.println("Is sortedArray sorted: " + isSorted(sortedArray));
-        System.out.println("Count of 2 in testArray: " + countOccurrences(testArray, 2));
-        System.out.println("Count of 7 in testArray: " + countOccurrences(testArray, 7));
+        System.out.println("Count of 2 in testArray (Should be 4): " + countOccurrences(testArray, 2));
+        System.out.println("Count of 7 in testArray (Should be 1): " + countOccurrences(testArray, 7));
     }
 }
